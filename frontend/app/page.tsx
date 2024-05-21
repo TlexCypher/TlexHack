@@ -1,9 +1,5 @@
-import Image from "next/image";
+import DashBoard from "@/components/elements/Dashboard";
 
 export default function Home() {
-  return (
-    <main>
-      <div>Home Page</div>
-    </main>
-  );
+  return <DashBoard username={"taichi"} />;
 }

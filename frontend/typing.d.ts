@@ -4,6 +4,10 @@ export interface BaseFormInput {
   password: string;
 }
 
+export type DashboardProps = {
+  username: string;
+};
+
 export type ZodMode =
   | "onSubmit"
   | "onBlur"
